@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">我的Android复习</string>
+    <string name="TextView">Are you Ok?</string>
+    <string name="TextView_reset">重新复习</string>
+    <string name="ButtonTrue">正确</string>
+    <string name="ButtonFalse">错误</string>
+    <string name="ButtonNext">下一题</string>
+    <string name="ButtonAnswer">查看答案</string>
+    <string name="ButtonLogin">登录</string>
+    <string name="ButtonRegister">注册</string>
+    <string name="Answer_Text">您已查看了答案</string>
+    <string name="About">联系开发者</string>
+</resources>

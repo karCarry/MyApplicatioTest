@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+       >
+        <TextView
+            android:id="@+id/question_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/Q1"/>
+        <Button
+            android:id="@+id/answer_Btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:textSize="20sp"
+            android:text="@string/ButtonAnswer" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/true_Btn_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/ButtonTrue" />
+            <Button
+                android:id="@+id/false_Btn_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:text="@string/ButtonFalse" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/next_Btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_next"
+            android:layout_gravity="bottom|end"
+            android:enabled="false"
+            android:textSize="20dp"
+            android:text="@string/ButtonNext" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
